@@ -18,7 +18,7 @@ export default function LoginScreen() {
 
     const handleForgotPassword = () => {
         console.log('Forgot Password clicked');
-        // Add navigation or logic for forgot password
+
     };
 
     return (
