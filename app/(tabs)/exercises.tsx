@@ -27,6 +27,12 @@ export default function Exercise() {
                             router.push('/login');
                         } else if (exercise.title === 'Exercise 4') {
                             router.push('/stopWatch');
+                        } else if (exercise.title === 'Exercise 5') {
+                            router.push('/registerScreen');
+                        } else if (exercise.title === 'Exercise 6') {
+                            router.push('/crud');
+                        } else if (exercise.title === 'Exercise 7') {
+                            router.push('/quiz');
                         }
                     }}
                 >
